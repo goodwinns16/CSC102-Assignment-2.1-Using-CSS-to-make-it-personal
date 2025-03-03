@@ -1,0 +1,124 @@
+body
+{
+    background: linear-gradient(cyan, rgb(186, 19, 147));
+    /*I don't love how the board page came out with it splitting the page. Look up options to fix this. Update
+    It is now not splitting the page, but changes as it scrolls down which I feel looks better*/
+    color: rgb(77, 4, 77);
+        
+}
+nav
+{
+    background-color: rgb(240, 9, 209);
+    color:rgb(255, 0, 119);
+    border: 2px solid black;
+    border-color: rgb(194, 18, 139);
+    border-top-left-radius: 1em 1em ;
+    border-top-right-radius: 1em 1em ;
+    border-bottom-left-radius: 1em 1em ;
+    border-bottom-right-radius: 1em 1em ;
+    height: 6000px;
+    width: 200px;
+    float: left;
+    padding: 5px;
+    line-height: 30px;
+    text-align: center;
+}
+
+p
+{
+    background-color: rgb(94, 243, 104);
+    text-align: left;
+    font-size: 50px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: bold;
+    color: grey;
+    margin-right: 200px;
+
+
+}
+ol
+{
+    margin-left: 125px;
+    padding-left: 125px;
+}
+/*Margins were added to the ol because they were falling inside of the navigation border*/
+
+img
+/*I feel like this looked better before I set the margins to margin-right: 200px*/
+{
+    margin-right: 200px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+img:hover {
+    box-shadow: inset;
+    background-color: #ddd;
+}
+/*Attempted to make a fun hover for the picture.*/
+
+h1
+{
+    text-decoration:double;
+    text-decoration-color: brown;
+    text-align: center;
+    border: 2px dotted black;
+    border-color: rgb(194, 18, 139);
+    border-top-left-radius: 1em 1em ;
+    border-top-right-radius: 1em 1em ;
+    border-bottom-left-radius: 1em 1em ;
+    border-bottom-right-radius: 1em 1em ;
+    background-color: purple;
+}
+
+h3
+{
+    font-size: 35px;
+    text-align: center;
+    background-color: purple;
+}
+
+h5
+{
+    font-size: 30px;
+    text-align: center;
+    background-color: purple;
+}
+
+h6
+{
+    font-size: 25px;
+    text-align: center;
+    background-color: purple;
+}
+
+button
+{
+    background-color: yellow;
+    border-color: darkolivegreen;
+    border-radius: 50px;
+    border-style: dashed;
+    width: 100px;
+    height: 100px;
+    cursor:crosshair;
+}
+
+#firstbutton:hover
+{
+    background-color: blanchedalmond;
+    color: purple;
+    padding: 46px 46px;
+    transition-duration: .4s;
+}
+
+footer 
+{
+    text-align: center;
+    color:aliceblue;
+    margin-right: 200px;
+    background-color: black;
+/*Help! My <p> from the body is also coming to my footer, how do I express the difference between these? Update! the 
+<div> worked in exchange for the <p>*/
+}
